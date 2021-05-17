@@ -1,0 +1,198 @@
+html{
+   height: 100%;
+   overflow-x: hidden;
+}
+
+body {
+    background: url(../imagens/capa.png), 
+    url(../imagens/ruido.png),
+    linear-gradient(50deg, #ff4169, #7c26f8);
+    background-attachment: fixed;
+    font-family: Helvetica, Arial, sans-serif;
+    overflow: visible;
+    height: 100%;
+}
+
+#principal {
+    height: 100%;
+}
+
+/*FORMATAÇÃO TOPO*/
+
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+    margin: 0px 8px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #9bf0e1;}
+    
+
+.navbar-light .navbar-nav .nav-item {
+    color: white;
+    font-weight: bolder;
+}
+
+#navegation-menu {
+    background: rgba(0,0,0,0.6)
+}
+
+.navbar-light .navbar-toggler {
+    color: white;
+    border-color: white;
+}
+
+@media(max-width: 768px) {
+    #logotipo {
+        margin-left: -50px;
+    }
+}
+
+/*FORMATAÇÃO CONTEÚDO PRINCIPAL*/
+
+#capa {
+    text-align: center;
+}
+
+h1 {
+    font-weight: 900;
+    letter-spacing: -0.05em;
+    margin-bottom: 50px;
+    color: white;
+}
+
+
+@media (min-width: 0px) and (max-width: 767.98px)  { 
+       h1 {font-size: 38px; }
+    }
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    h1{ font-size: 65px;}
+}
+
+@media (min-width: 992px){
+    h1 {font-size: 80px;}
+}
+
+
+#botao-esquerda, #botao-direita {
+    color: white;
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    
+}
+
+#botao-esquerda {
+    background: #007bff;}
+
+#botao-esquerda:hover {
+    background: #6207e3;
+    color: white;
+}
+
+#botao-direita {
+    border: 2px solid white;}
+
+#botao-direita:hover {
+    background: white;
+    color: black;
+}
+
+
+@media(max-width: 535px) {
+    #botao-esquerda {
+        margin-bottom: 10px;
+    }
+}
+
+/*FORMATAÇÃO PARTE 2*/
+
+#parte-2 {
+    background: white;
+}
+
+#parte-2 h2 {
+    color: #7c25f8;
+    font-size: 48px;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+}
+
+#parte-2 h3 {
+    color: #7c25f8;
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+}
+
+@media(max-width: 768px) {
+    #imgs-coluna-1 {
+        margin-bottom: 25px;
+    }
+}
+
+/*FORMATAÇÃO PARTE 3*/
+#parte-3 h2 {
+    color: white;
+    font-size: 48px;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+}
+
+#parte-3 h3 {
+    color: #9bf0e1;
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+}
+
+#parte-3 p {
+    color: white;
+}
+
+.rotacionar {
+    transform: rotate(30deg);
+    padding-left: 80px;
+}
+
+
+/*FORMATAÇÃO FOOTER*/
+
+footer {
+    background: black;
+    position: relative;
+}
+
+footer ul {
+    padding-top: 35px;
+    padding-bottom: 12px;
+    list-style-type: none;
+}
+
+#logo-rodape {
+    padding-top: 35px;
+    padding-bottom: 12px;
+}
+
+footer a {
+    color: white;
+    font-weight: bold;
+    letter-spacing: -0.04em;
+}
+
+footer a:hover {
+    text-decoration: none;
+    color: #9bf0e1;
+}
+
+footer h4 {
+    color: #919496;
+    font-size: 12px;
+}
+
+footer i {
+    padding: 0px 20px;
+}
